@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/wujiamingcq/WJMThirdLoginModule.git", :tag => "#{s.version}" }
 
-  s.swift_version = '4.0' 
+  s.swift_version = '3.2' 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
