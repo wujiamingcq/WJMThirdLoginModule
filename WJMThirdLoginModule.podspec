@@ -17,17 +17,16 @@ Pod::Spec.new do |s|
 
   s.name         = "WJMThirdLoginModule"
   s.version      = "0.0.1"
-  s.summary      = "A short description of WJMThirdLoginModule."
+  s.summary      = "ThirdLoginModule"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = '这是个描述'
 
-  s.homepage     = "http://EXAMPLE/WJMThirdLoginModule"
+  s.homepage     = "http://www.baidu.com"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -81,6 +80,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/wujiamingcq/WJMThirdLoginModule.git", :tag => "#{s.version}" }
 
+  s.swift_version = '4.0' 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
